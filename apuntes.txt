@@ -1,0 +1,177 @@
+color: #000;
+font-family: "Open Sans", Arial, sans-serif;
+font-weight: 400;
+margin: 0 0 30px 0;
+font-size: 30px;
+line-height: 1.1;
+box-sizing: border-box;
+
+.lenguajes {
+	color: #0A25F6;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 1.1;
+}
+
+/* barras de porcentajes */
+
+.skills-bar-container li .bar-container {
+	background: #555;
+	position: relative;
+	width: 100%;
+	height: 5px;
+	margin-top: 5px;
+	display: block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.skills-bar-container {
+	list-style: none;
+}
+
+.skills-bar-container li .bar-container #progress-python {
+	-webkit-animation-name: progress-python;
+	animation-name: progress-python;
+	-webkit-animation-delay: 0.7s;
+	animation-delay: 0.7s;
+}
+.skills-bar-container li .bar-container .progressbar {
+	position: absolute;
+	width: 0%;
+	height: 100%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-timing-function: ease-out;
+	animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+:root {
+	--python: 80%;
+	--typescript: 70%;
+	--java: 60%;
+	--javascript: 60%;
+	--dart: 50%;
+	--flutter: 70%;
+	--android: 60%;
+	--html: 70%;
+	--css: 60%;
+	--elm: 70%;
+	--nestjs: 80%;
+	--prestashop: 80%;
+	--spring: 40%;
+	--rails: 30%;
+	--mysql: 90%;
+	--postgresql: 70%;
+	--neo4j: 50%;
+	--linux: 70%;
+	--graphql: 80%;
+	--firebase: 80%;
+	--latex: 60%;
+	--espanol: 100%;
+	--ingles: 50%;
+}
+
+position: absolute;
+right: 5px;
+
+/* portfolio */ 
+
+.col-md-4.col-sm-6.portfolio-item {
+	width: 50%;
+	height: 150px;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.portfolio-caption {
+	width: 50%;
+	float: right;
+	text-align: center;
+	background: white;
+	height: 100%;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+	position: relative;
+	display: block;
+	max-width: 400px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: all ease .5s;
+	opacity: 0;
+	background: #572364;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 20px;
+	margin-top: -12px;
+	text-align: center;
+	color: #fff;
+}
+#portfolio .portfolio-item .portfolio-caption {
+	width: 50%;
+	float: right;
+	padding: 25px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.portfolio-hover-content i {
+	margin-top: -12px;
+}
+.fa, .fas {
+	font-weight: 900;
+}
+.fa, .far, .fas {
+	font-family: "Font Awesome 5 Free";
+}
+.fa-3x {
+	font-size: 3em;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+}
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+.portfolio-link {
+	cursor: pointer;
+}
+
+
+.tis.ti-plus.ti-3x {
+	font-weight: 900;
+	font-size: 3em;
+	display: inline-block;
+}
+
+
+
