@@ -972,6 +972,9 @@ h3 {
 	}
 }
 @media (max-width: 400px) {
+	.esi_Dere {
+		width: 300px;
+	}
 	.text-muted {
 		font-size: 12px;
 	}
