@@ -316,7 +316,7 @@ i.icon.icon-home.house {
 				}
 
 	.gtco-nav.scrolled #gtco-logo em, .gtco-nav.scrolled #gtco-logo a {
-		color: #000;
+		color: var(--main-color-primary);
 	}
 
 #gtco-hero .gtco-video-link a {
